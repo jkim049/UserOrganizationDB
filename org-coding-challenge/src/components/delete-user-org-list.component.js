@@ -61,7 +61,7 @@ export default class DeleteUserOrg extends Component {
         .then(res => console.log(res.data))
         .catch(err => console.log(err.response));
         
-        //window.location = "/Users";
+        window.location = "/Users";
     }
     
     render(){

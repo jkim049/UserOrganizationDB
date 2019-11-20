@@ -75,6 +75,7 @@ export default class CreateUser extends Component {
             phone: 1234567890,
             organizations: []
         })
+        window.location = "/Users";
     }
 
     render(){

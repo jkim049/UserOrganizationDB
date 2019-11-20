@@ -57,6 +57,8 @@ export default class CreateOrganization extends Component {
             phone: 1234567890,
             users: []
         })
+
+        window.location = "/Organizations";
     }
 
     render(){
